@@ -30,6 +30,8 @@ public class RelativeLoc {
 		WebElement rdb = driver.findElement(By.id("inlineRadio1"));
 
 		System.out.println(driver.findElement(with(By.tagName("label")).toRightOf(rdb)).getText());
+		
+		
 
 	}
 
